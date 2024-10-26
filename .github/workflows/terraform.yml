@@ -45,7 +45,7 @@ jobs:
   s3-site-using-module-branch-job:
     name: Terraform deploy from ${{ github.ref }}
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/s3-site'
+    if: github.ref == 'refs/heads/s3-site-using-module'
 
     defaults:
       run:
