@@ -16,7 +16,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "code9-vlada-state-file-s3-bucket"
+    bucket = "runtothehils-state-uncommon-emu"
     key    = "terraform/s3-site-module-for-each"
     region = "us-east-1"
   }
