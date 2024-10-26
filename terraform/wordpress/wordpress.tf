@@ -32,3 +32,5 @@ resource "aws_instance" "wordpress_ec2_instance" {
     Name = "${local.wordpress_ec2_name}"
   }
 }
+
+# komentar
