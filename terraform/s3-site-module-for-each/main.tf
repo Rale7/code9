@@ -9,3 +9,5 @@ module "s3_count" {
   source   = "../modules/s3-site"
   my_name  = var.s3_site_count[count.index]
 }
+
+# komentar
