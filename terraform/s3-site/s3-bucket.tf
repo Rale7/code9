@@ -47,6 +47,8 @@ resource "aws_s3_bucket_acl" "my-static-website" {
   acl    = "public-read"
 }
 
+# komentar
+
 # Add policy that will allow public access
 resource "aws_s3_bucket_policy" "static_website_policy" {
   bucket = aws_s3_bucket.my-static-website.id
