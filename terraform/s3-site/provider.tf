@@ -8,15 +8,15 @@ provider "aws" {
 }
 
 terraform {
-  required_version = "~> 1.5.0"
+  required_version = "~> 1.9.5"
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 5.6.2"
+      version = "~> 5.72.2"
     }
   }
   backend "s3" {
-    bucket = "code9-vlada-state-file-s3-bucket"
+    bucket = "runtothehils-state-uncommon-emu"
     key    = "terraform/s3-site"
     region = "us-east-1"
   }
