@@ -1,4 +1,4 @@
-name: Terraform for building Wordpress site
+name: Terraform for building echo site
 
 on:
   push:
